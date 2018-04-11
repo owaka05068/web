@@ -1,0 +1,41 @@
+html {
+  height: 100%;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+  background-color: transparent
+}
+body {
+  margin: 0px;
+  background: #FFF
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'Open Sans',sans-serif;
+}
+/*992px以上で適用する内容
+@media (min-wdith: 992px) {
+
+}
+*/
+div {
+  background-color: rgb(255, 255, 255);
+  /*border: 1px solid #2126a4;*/
+}
+
+.gradient-bar-header {
+  height: 3px;
+  background-color: #ff8a00;
+}
+
+#main-manu {
+  border: solid 1px #c901bf
+}
+
+li {
+  border: solid 2px #50e6cf
+  list-style: none;
+  display: inline;
+  padding-left: 0;
+}
